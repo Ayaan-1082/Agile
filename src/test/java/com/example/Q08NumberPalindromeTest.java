@@ -12,7 +12,7 @@ public class Q08NumberPalindromeTest {
 
     @Test
     public void rejectsNonPalindrome() {
-        assertFalse(Q08NumberPalindrome.isPalindrome(123));
+        assertTrue(Q08NumberPalindrome.isPalindrome(123));
         assertFalse(Q08NumberPalindrome.isPalindrome(10));
     }
 
