@@ -13,7 +13,7 @@ public class Q04Factorial {
     }
 
     public static void main(String[] args) {
-        int number = args.length > 0 ? Integer.parseInt(args[0]) : 5;
+        int number = args.length > 0 ? Integer.parseInt(args[0]) : 7;
         System.out.println(number + "! = " + factorial(number));
     }
 }
