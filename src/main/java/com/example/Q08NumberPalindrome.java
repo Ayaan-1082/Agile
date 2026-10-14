@@ -15,7 +15,7 @@ public class Q08NumberPalindrome {
     }
 
     public static void main(String[] args) {
-        int number = args.length > 0 ? Integer.parseInt(args[0]) : 121;
+        int number = args.length > 0 ? Integer.parseInt(args[0]) : 123;
         System.out.println(number + (isPalindrome(number) ? " is a palindrome" : " is not a palindrome"));
     }
 }
