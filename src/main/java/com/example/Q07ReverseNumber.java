@@ -12,7 +12,7 @@ public class Q07ReverseNumber {
     }
 
     public static void main(String[] args) {
-        int number = args.length > 0 ? Integer.parseInt(args[0]) : 1234;
+        int number = args.length > 0 ? Integer.parseInt(args[0]) : 123456789;
         System.out.println("Reversed = " + reverse(number));
     }
 }
